@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion, Variants } from "framer-motion";
 import { HiAcademicCap, HiArrowRight } from "react-icons/hi";
 import { HERO_STATS } from "@/lib/constants";
 import Button from "./ui/Button";
@@ -9,8 +9,8 @@ import Button from "./ui/Button";
 export default function Hero() {
   const shouldReduceMotion = useReducedMotion();
 
-  const containerVariants = shouldReduceMotion
-    ? {}
+  const containerVariants: Variants = shouldReduceMotion
+    ? { hidden: {}, visible: {} }
     : {
         hidden: { opacity: 0 },
         visible: {
@@ -19,8 +19,8 @@ export default function Hero() {
         },
       };
 
-  const itemVariants = shouldReduceMotion
-    ? {}
+  const itemVariants: Variants = shouldReduceMotion
+    ? { hidden: {}, visible: {} }
     : {
         hidden: { opacity: 0, y: 30 },
         visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
