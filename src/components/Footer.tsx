@@ -13,13 +13,17 @@ export default function Footer() {
       <div className="container-custom">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div>
-            <div className="flex items-center gap-1 mb-4 h-12">
+            <div className="flex items-center gap-3 mb-4 h-12">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/logo.webp"
                 alt="ASK Tutorials Logo"
-                className="h-10 w-auto object-contain brightness-0 invert"
+                className="h-10 w-auto object-contain"
               />
+              <div className="flex items-center font-poppins font-bold text-xl tracking-tight">
+                <span className="text-white">ASK</span>
+                <span className="text-brand-orange-500 ml-1.5">Tutorials</span>
+              </div>
             </div>
             <p className="text-white/70 text-body-sm leading-relaxed mb-6">
               Empowering students with expert guidance, small batches, and

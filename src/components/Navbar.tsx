@@ -62,7 +62,7 @@ export default function Navbar() {
                 e.preventDefault();
                 handleNavClick("#hero");
               }}
-              className="flex items-center gap-2 z-50 h-10 w-auto"
+              className="flex items-center gap-3 z-50 h-10 w-auto group"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -70,6 +70,14 @@ export default function Navbar() {
                 alt="ASK Tutorials Logo"
                 className="h-10 w-auto object-contain"
               />
+              <div className="flex items-center font-poppins font-bold text-lg md:text-xl tracking-tight transition-colors">
+                <span className={isScrolled ? "text-brand-blue-900" : "text-white"}>
+                  ASK
+                </span>
+                <span className="text-brand-orange-500 ml-1.5">
+                  Tutorials
+                </span>
+              </div>
             </a>
 
             <div className="hidden lg:flex items-center gap-8">
