@@ -209,7 +209,7 @@ export const ADMISSION_STEPS: AdmissionStep[] = [
 export const CONTACT_INFO: ContactInfo = {
   phone: "+91 94931 30899",
   whatsapp: "919493130899",
-  email: "info@asktutorials.com",
+  email: "askedge99@gmail.com",
   address: "Road no 14, Hanuman Nagar, R.N. Reddy Nagar, near TKR COLLEGE OF ENGINEERING & TECHNOLOGY, Saroor Nagar, Meerpet, Hyderabad, Telangana 500097",
   mapsLink: "https://maps.google.com/?q=ASK+Tutorials+Hanuman+Nagar+Meerpet+Hyderabad",
 };
@@ -239,8 +239,8 @@ export const COURSE_INTEREST_OPTIONS = [
 // ─── Social Links ─────────────────────────────────────────────
 export const SOCIAL_LINKS = {
   whatsapp: "https://wa.me/919493130899?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20ASK%20Tutorials",
-  instagram: "https://instagram.com/asktutorials",
-  facebook: "https://facebook.com/asktutorials",
+  instagram: "https://instagram.com/ask.tutorials2025",
+  facebook: "https://www.facebook.com/profile.php?id=61578542584813#",
 };
 
 // ─── Formspree ────────────────────────────────────────────────
